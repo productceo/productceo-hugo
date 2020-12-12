@@ -10,25 +10,25 @@ summarylength = 10
 theme = "anatole"
 title = "Product CEO"
 [[menu.main]]
-identifier = "Executive Advice"
-name = "Executive Advice"
-url = "/ExecutiveAdvice"
-weight = 4
-[[menu.main]]
-identifier = "First Party"
-name = "First Party"
-url = "/FirstParty"
-weight = 1
+identifier = "Executive Library"
+name = "Executive Library"
+url = "/ExecutiveLibrary"
+weight = 6
 [[menu.main]]
 identifier = "Executive Summary"
 name = "Executive Summary"
 url = "/ExecutiveSummary"
-weight = 3
+weight = 7
 [[menu.main]]
-identifier = "Executive Library"
-name = "Executive Library"
-url = "/ExecutiveLibrary"
-weight = 2
+identifier = "Executive Advice"
+name = "Executive Advice"
+url = "/ExecutiveAdvice"
+weight = 8
+[[menu.main]]
+identifier = "First Party"
+name = "First Party"
+url = "/FirstParty"
+weight = 5
 [params]
 author = "Product CEO"
 description = "Microsoft PM || Stanford CS"
