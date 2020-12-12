@@ -10,54 +10,34 @@ summarylength = 10
 theme = "anatole"
 title = "Product CEO"
 [[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 1
-[[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/post/"
-weight = 2
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 3
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 4
-[[menu.main]]
-identifier = "Executive Library"
-name = "Executive Library"
-url = "/ExecutiveLibrary"
-weight = 6
-[[menu.main]]
-identifier = "Executive Summary"
-name = "Executive Summary"
-url = "/ExecutiveSummary"
-weight = 7
-[[menu.main]]
 identifier = "Executive Advice"
 name = "Executive Advice"
 url = "/ExecutiveAdvice"
-weight = 8
+weight = 4
 [[menu.main]]
 identifier = "First Party"
 name = "First Party"
 url = "/FirstParty"
-weight = 5
+weight = 1
+[[menu.main]]
+identifier = "Executive Summary"
+name = "Executive Summary"
+url = "/ExecutiveSummary"
+weight = 3
+[[menu.main]]
+identifier = "Executive Library"
+name = "Executive Library"
+url = "/ExecutiveLibrary"
+weight = 2
 [params]
-profilePicture = "profile/junwon.jpg"
-title = "Junwon Park"
+author = "Product CEO"
 description = "Microsoft PM || Stanford CS"
 doNotLoadAnimations = false
 favicon = "favicons/"
 keywords = ""
 mainSections = ["ExecutiveLibrary", "ExecutiveSummary", "FirstParty"]
-author = "Product CEO"
+profilePicture = "profile/junwon.jpg"
+title = "Junwon Park"
 [params.math]
 enable = false
 use = "katex"
