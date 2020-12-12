@@ -1,4 +1,4 @@
-baseURL = "http://productceo.github.io"
+baseURL = "https://productceo.github.io"
 languageCode = "en"
 DefaultContentLanguage = "en"
 title = "Website of Jane Doe"
