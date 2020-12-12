@@ -8,7 +8,7 @@ pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
 summarylength = 10
 theme = "anatole"
-title = "Website of Jane Doe"
+title = "Product CEO"
 [[menu.main]]
 name = "Executive Advice"
 url = "/Executive Advice"
