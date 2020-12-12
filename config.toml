@@ -46,15 +46,15 @@ name = "Home"
 url = "/"
 weight = 1
 [params]
-author = "Jane Doe"
-description = "Call me Jane"
+author = "Junwon Park"
+description = "Microsoft PM || Stanford CS"
 doNotLoadAnimations = false
 favicon = "favicons/"
 images = ["images/site-feature-image.png"]
 keywords = ""
 mainSections = ["post"]
 profilePicture = "images/profile.jpg"
-title = "I'm Jane Doe"
+title = "Product CEO"
 [params.math]
 enable = false
 use = "katex"
