@@ -6,15 +6,30 @@ webhook_url:
 sections:
 - type: document
   path: config.toml
-  label: Configuration
+  label: Landing Page
 - type: directory
   path: content
   label: Content
   create: all
-  match: "*"
+  match: "**/*"
 - type: directory
-  path: content/post
-  label: Post
+  path: content/ExecutiveLibrary
+  label: Executive Library
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/ExecutiveSummary
+  label: Executive Summary
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/ExecutiveAdvice
+  label: Executive Advice
+  create: all
+  match: "**/*"
+- type: directory
+  path: content/FirstParty
+  label: First Party
   create: all
   match: "**/*"
 upload_dir: static/uploads
