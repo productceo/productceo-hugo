@@ -30,18 +30,22 @@ name = "Contact"
 url = "/contact/"
 weight = 4
 [[menu.main]]
+identifier = "Executive Advice"
 name = "Executive Advice"
 url = "/Executive Advice"
 weight = 8
 [[menu.main]]
+identifier = "Executive Summary"
 name = "Executive Summary"
 url = "/ExecutiveSummary"
 weight = 7
 [[menu.main]]
+identifier = "Executive Library"
 name = "Executive Library"
 url = "/ExecutiveLibrary"
 weight = 6
 [[menu.main]]
+identifier = "First Party"
 name = "First Party"
 url = "/FirstParty"
 weight = 5
