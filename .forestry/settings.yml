@@ -9,7 +9,7 @@ sections:
   label: Configuration
 - type: directory
   path: content
-  label: Pages
+  label: Content
   create: all
   match: "*"
 - type: directory
