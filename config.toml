@@ -1,89 +1,76 @@
-baseURL = "https://productceo.github.io"
-languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
-theme = "anatole"
-summarylength = 10
+baseURL = "https://productceo.github.io"
 enableEmoji = true
 enableRobotsTXT = true
-
-# Enable Disqus
-#disqusShortname = ""
-
-# Google Analytics
-#googleAnalytics = "UA-123-45"
-
-# Syntax highlighting
-pygmentsUseClasses = true
+languageCode = "en"
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-
+pygmentsUseClasses = true
+summarylength = 10
+theme = "anatole"
+title = "Website of Jane Doe"
+[[menu.main]]
+name = "Executive Advice"
+url = "/Executive Advice"
+weight = 8
+[[menu.main]]
+name = "Executive Summary"
+url = "/ExecutiveSummary"
+weight = 7
+[[menu.main]]
+name = "Executive Library"
+url = "/ExecutiveLibrary"
+weight = 6
+[[menu.main]]
+name = "First Party"
+url = "/FirstParty"
+weight = 5
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 4
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = 3
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/post/"
+weight = 2
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
 [params]
-title = "I'm Jane Doe"
 author = "Jane Doe"
 description = "Call me Jane"
-profilePicture = "images/profile.jpg"
-keywords = ""
-favicon = "favicons/"
-mainSections = ["post"]
-images = ["images/site-feature-image.png"]
 doNotLoadAnimations = false
-# Form Spree Contact Form
-#contactFormAction = "https://formspree.io/f/your-form-hash-here"
-# Google Site Verify
-#googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-
-## Math settings
+favicon = "favicons/"
+images = ["images/site-feature-image.png"]
+keywords = ""
+mainSections = ["post"]
+profilePicture = "images/profile.jpg"
+title = "I'm Jane Doe"
 [params.math]
-enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
-use = "katex"  # options: "katex", "mathjax". default is "katex".
-
-## Social links
-# use 'fab' when brand icons, use 'fas' when standard solid icons.
+enable = false
+use = "katex"
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://de.linkedin.com/"
-
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
 url = "https://github.com/lxndrblz/anatole/"
-
 [[params.socialIcons]]
 icon = "fab fa-instagram"
 title = "instagram"
 url = "https://www.instagram.com/"
-
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
 url = "mailto:mail@alexbilz.com"
-
-## Menu items
-
-[menu]
-
-  [[menu.main]]
-  name = "Home"
-  identifier = "home"
-  weight = 100
-  url = "/"
-
-  [[menu.main]]
-  name = "Posts"
-  weight = 200
-  identifier = "posts"
-  url = "/post/"
-
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
-
-  [[menu.main]]
-  name = "Contact"
-  weight = 400
-  identifier = "contact"
-  url = "/contact/"
