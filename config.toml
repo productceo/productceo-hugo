@@ -1,5 +1,5 @@
 DefaultContentLanguage = "en"
-baseURL = "https://productceo.github.io"
+baseURL = "https://www.product.ceo"
 enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
