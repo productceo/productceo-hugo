@@ -5,9 +5,8 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: content/_index.md
-  label: Landing Page
-  match: "**/*"
+  path: config.toml
+  label: Configuration
 - type: directory
   path: content
   label: Pages
