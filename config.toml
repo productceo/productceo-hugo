@@ -42,7 +42,7 @@ weight = 7
 [[menu.main]]
 identifier = "Executive Advice"
 name = "Executive Advice"
-url = "/Executive Advice"
+url = "/ExecutiveAdvice"
 weight = 8
 [[menu.main]]
 identifier = "First Party"
@@ -50,31 +50,34 @@ name = "First Party"
 url = "/FirstParty"
 weight = 5
 [params]
-author = "Junwon Park"
+profilePicture = "profile/junwon.jpg"
+title = "Junwon Park"
 description = "Microsoft PM || Stanford CS"
 doNotLoadAnimations = false
 favicon = "favicons/"
-images = ["images/site-feature-image.png"]
 keywords = ""
-mainSections = ["post"]
-profilePicture = "images/profile.jpg"
-title = "Product CEO"
+mainSections = ["ExecutiveLibrary", "ExecutiveSummary", "FirstParty"]
+author = "Product CEO"
 [params.math]
 enable = false
 use = "katex"
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
-title = "Linkedin"
-url = "https://de.linkedin.com/"
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/productceo/"
+[[params.socialIcons]]
+icon = "fab fa-twitter"
+title = "Twitter"
+url = "https://www.twitter.com/microsoftpm/"
+[[params.socialIcons]]
+icon = "fab fa-reddit-alien"
+title = "Reddit"
+url = "https://www.reddit.com/productceo/"
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
-url = "https://github.com/lxndrblz/anatole/"
+url = "https://github.com/productceo/"
 [[params.socialIcons]]
-icon = "fab fa-instagram"
-title = "instagram"
-url = "https://www.instagram.com/"
-[[params.socialIcons]]
-icon = "fas fa-envelope"
-title = "e-mail"
-url = "mailto:mail@alexbilz.com"
+icon = "fas fa-podcast"
+title = "Podcast"
+url = "https://anchor.fm/productceo/"
