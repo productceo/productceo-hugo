@@ -1,0 +1,31 @@
+---
+label: Executive Summary
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: season
+  label: season
+- type: list
+  name: authors
+  label: authors
+- type: text
+  name: type
+  label: type
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: anchorpodcast
+  label: anchorpodcast
+- type: textarea
+  name: applepodcast
+  label: applepodcast
+- type: text
+  name: spotify
+  label: spotify
+- type: text
+  name: youtube
+  label: youtube
