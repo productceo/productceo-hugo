@@ -15,9 +15,6 @@ enable = false
 use = "katex"
 
 [taxonomies]
-taxonomy1 = "Taxonomy 1"
-taxonomy2 = "Taxonomy 2"
-taxonomy3 = "Taxonomy 3"
 
 [[menu.main]]
 identifier = "Executive Library"

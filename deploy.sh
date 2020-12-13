@@ -13,6 +13,9 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
+# Delete previous build.
+rm -rf public/*
+
 # Build the project.
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
@@ -20,6 +23,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 cd public
 
 # Add changes to git.
+echo ".DS_Store" >> .gitignore
 git add .
 
 # Commit changes.
