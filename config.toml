@@ -1,46 +1,45 @@
 DefaultContentLanguage = "en"
-baseURL = "https://productceo.github.io"
+baseURL = "https://www.product.ceo"
 enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
 pygmentsUseClasses = true
-summarylength = 10
+summarylength = 20
 theme = "anatole"
 title = "Product CEO"
+
 [[menu.main]]
-identifier = "Executive Library"
-name = "Executive Library"
+identifier = "ExecutiveLibrary"
 url = "/ExecutiveLibrary"
-weight = 6
+name = "Executive Library"
+weight = 1
 [[menu.main]]
-identifier = "Executive Summary"
-name = "Executive Summary"
+identifier = "ExecutiveSummary"
 url = "/ExecutiveSummary"
-weight = 7
+name = "Executive Summary"
+weight = 2
 [[menu.main]]
-identifier = "Executive Advice"
-name = "Executive Advice"
-url = "/ExecutiveAdvice"
-weight = 8
-[[menu.main]]
-identifier = "First Party"
-name = "First Party"
+identifier = "FirstParty"
 url = "/FirstParty"
-weight = 5
+name = "First Party"
+weight = 3
+
 [params]
 author = "Product CEO"
 description = "Microsoft PM || Stanford CS"
 doNotLoadAnimations = false
 favicon = "favicons/"
 keywords = ""
-mainSections = ["ExecutiveLibrary", "ExecutiveSummary", "FirstParty"]
+mainSections = ["ExecutiveLibrary"]
 profilePicture = "profile/junwon.jpg"
 title = "Junwon Park"
+
 [params.math]
 enable = false
 use = "katex"
+
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "LinkedIn"
