@@ -1,0 +1,19 @@
+---
+label: Executive Library
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: season
+  label: season
+- type: list
+  name: authors
+  label: authors
+- type: text
+  name: type
+  label: type
+- type: datetime
+  name: date
+  label: date
