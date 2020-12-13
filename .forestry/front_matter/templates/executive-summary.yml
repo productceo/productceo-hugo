@@ -14,6 +14,7 @@ fields:
 - type: text
   name: type
   label: type
+  default: executivesummary
 - type: datetime
   name: date
   label: date
