@@ -10,11 +10,6 @@ sections:
   path: config.toml
   label: Landing Page
 - type: directory
-  path: content
-  label: Content
-  create: all
-  match: "**/*"
-- type: directory
   path: content/ExecutiveLibrary
   label: Executive Library
   create: all
