@@ -1,8 +1,8 @@
-<h1>{{ .Title }}</h1>
+<div class="section-title"><h1>{{ .Title }}</h1></div>
 {{ .Content }}
 {{ $subsections := .Sections }}
 {{ range $subsections }}
-    <h2>{{ .Title }}</h2>
+    <div class="subsection-title"><h2>{{ .Title }}</h2></div>
     {{ range .Data.Pages }}
         <div class="post-title">
             <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a>
