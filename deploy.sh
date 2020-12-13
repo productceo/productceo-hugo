@@ -4,7 +4,7 @@
 git pull
 
 # Remove and set up public branch
-git rm --cached -r public
+git rm --cached -r -f public
 rm -rf public
 git submodule add -b main --force  https://github.com/productceo/productceo.github.io.git public
 
@@ -13,17 +13,14 @@ set -e
 
 printf "\033[0;32mDeploying updates to GitHub...\033[0m\n"
 
-# Delete previous build.
-rm -rf public/*
-
 # Build the project.
+rm -rf public/*
 hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
 
 # Add changes to git.
-echo ".DS_Store" >> .gitignore
 git add .
 
 # Commit changes.
@@ -34,4 +31,4 @@ fi
 git commit -m "$msg"
 
 # Push source and build repos.
-git push origin main
+git push -f origin main
