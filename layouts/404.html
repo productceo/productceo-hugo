@@ -1,3 +1,5 @@
 {{ define "main" }}
-    404 PAGE NOT FOUND (/layouts/404.html)
+    <div class="post {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
+        404 Page Not Found
+    </div>
 {{ end }}
