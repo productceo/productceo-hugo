@@ -1,0 +1,19 @@
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ $subsections := .Sections }}
+{{ range $subsections }}
+    <h2>{{ .Title }}</h2>
+    {{ range .Data.Pages }}
+        <div class="post-title">
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h3>
+        </div>
+        <div class="post-content">
+            <div class="p_part"><p>{{ .Summary }}</p></div>
+        </div>
+        <div class="post-footer">
+            <div class="meta">
+            </div>
+        </div>
+    {{ end }}
+{{ end }}

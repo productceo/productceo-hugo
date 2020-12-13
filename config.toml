@@ -10,19 +10,28 @@ summarylength = 20
 theme = "anatole"
 title = "Product CEO"
 
+[params.math]
+enable = false
+use = "katex"
+
+[taxonomies]
+taxonomy1 = "Taxonomy 1"
+taxonomy2 = "Taxonomy 2"
+taxonomy3 = "Taxonomy 3"
+
 [[menu.main]]
-identifier = "ExecutiveLibrary"
-url = "/ExecutiveLibrary"
+identifier = "Executive Library"
+url = "/Executive Library"
 name = "Executive Library"
 weight = 1
 [[menu.main]]
-identifier = "ExecutiveSummary"
-url = "/ExecutiveSummary"
+identifier = "Executive Summary"
+url = "/Executive Summary"
 name = "Executive Summary"
 weight = 2
 [[menu.main]]
-identifier = "FirstParty"
-url = "/FirstParty"
+identifier = "First Party"
+url = "/First Party"
 name = "First Party"
 weight = 3
 
@@ -33,12 +42,11 @@ doNotLoadAnimations = false
 favicon = "favicons/"
 keywords = ""
 mainSections = ["ExecutiveLibrary"]
+mainSection1 = ["ExecutiveLibrary"]
+mainSection2 = ["ExecutiveSummary"]
+mainSection3 = ["FirstParty"]
 profilePicture = "profile/junwon.jpg"
 title = "Junwon Park"
-
-[params.math]
-enable = false
-use = "katex"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
