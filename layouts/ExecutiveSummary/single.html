@@ -13,7 +13,19 @@
                 {{ end }}
             </div>
 
-            {{ .Content }}
+            <div>
+                <h1>Podcast</h1>
+                <ul>
+                    <li>Apple Podcast: {{ .Page.Params.ApplePodcast }}</li>
+                    <li>Spotify Podcast: {{ .Page.Params.Spotify }}</li>
+                    <li>YouTube: {{ .Page.Params.YouTube }}</li>
+                </ul>
+            </div>
+
+            <div>
+                <h1>Transcript</h1>
+                {{ .Content }}
+            </div>
 
         </div>
         <div class="post-footer">
