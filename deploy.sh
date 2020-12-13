@@ -1,5 +1,13 @@
 #!/bin/sh
 
+# Git pull to latest main branch
+git pull
+
+# Remove and set up public branch
+git rm --cached public
+rm -rf public
+git submodule add -b main --force  https://github.com/productceo/productceo.github.io.git public
+
 # If a command fails then the deploy stops
 set -e
 
