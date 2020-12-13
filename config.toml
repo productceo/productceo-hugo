@@ -42,8 +42,8 @@ mainSections = ["ExecutiveLibrary"]
 mainSection1 = ["ExecutiveLibrary"]
 mainSection2 = ["ExecutiveSummary"]
 mainSection3 = ["FirstParty"]
-profilePicture = "profile/junwon.jpg"
-title = "Junwon Park"
+profilePicture = "profile/junwon.png"
+name = "Junwon Park"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
