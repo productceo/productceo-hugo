@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Measure What Matters on Product CEO</title>
+    <link>https://www.product.ceo/executive-summary/measure-what-matters/</link>
+    <description>Recent content in Measure What Matters on Product CEO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Dec 2020 15:36:54 -0800</lastBuildDate><atom:link href="https://www.product.ceo/executive-summary/measure-what-matters/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E01: Executive Summary Example Post 7</title>
+      <link>https://www.product.ceo/executive-summary/measure-what-matters/s03e01/</link>
+      <pubDate>Sat, 12 Dec 2020 15:36:54 -0800</pubDate>
+      
+      <guid>https://www.product.ceo/executive-summary/measure-what-matters/s03e01/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur lorem donec massa sapien.</description>
+    </item>
+    
+    <item>
+      <title>E02: Executive Summary Example Post 8</title>
+      <link>https://www.product.ceo/executive-summary/measure-what-matters/s03e02/</link>
+      <pubDate>Sat, 12 Dec 2020 15:36:54 -0800</pubDate>
+      
+      <guid>https://www.product.ceo/executive-summary/measure-what-matters/s03e02/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur lorem donec massa sapien.</description>
+    </item>
+    
+    <item>
+      <title>E03: Executive Summary Example Post 9</title>
+      <link>https://www.product.ceo/executive-summary/measure-what-matters/s03e03/</link>
+      <pubDate>Sat, 12 Dec 2020 15:36:54 -0800</pubDate>
+      
+      <guid>https://www.product.ceo/executive-summary/measure-what-matters/s03e03/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur lorem donec massa sapien.</description>
+    </item>
+    
+  </channel>
+</rss>

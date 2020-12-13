@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Overlay on Product CEO</title>
+    <link>https://www.product.ceo/first-party/overlay/</link>
+    <description>Recent content in Overlay on Product CEO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 12 Dec 2020 15:36:54 -0800</lastBuildDate><atom:link href="https://www.product.ceo/first-party/overlay/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Launching Overlay</title>
+      <link>https://www.product.ceo/first-party/overlay/launching-overlay/</link>
+      <pubDate>Sat, 12 Dec 2020 15:36:54 -0800</pubDate>
+      
+      <guid>https://www.product.ceo/first-party/overlay/launching-overlay/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur lorem donec massa sapien.</description>
+    </item>
+    
+  </channel>
+</rss>
