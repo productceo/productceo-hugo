@@ -1,4 +1,4 @@
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js');
+importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.0.2/workbox-sw.js');
 
 if (workbox) {
   workbox.precaching.precacheAndRoute([]);
@@ -10,7 +10,7 @@ if (workbox) {
       new workbox.strategies.CacheFirst({
           cacheName: "images",
           plugins: [
-              new workbox.expiration.Plugin({
+              new workbox.expiration.ExpirationPlugin({
                   maxEntries: 50,
                   maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
               })
@@ -35,7 +35,7 @@ if (workbox) {
       new workbox.strategies.CacheFirst({
           cacheName: "google-fonts",
           plugins: [
-              new workbox.cacheableResponse.Plugin({
+              new workbox.cacheableResponse.CacheableResponsePlugin({
                   statuses: [0, 200],
               }),
           ],
