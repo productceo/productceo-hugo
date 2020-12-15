@@ -1,4 +1,12 @@
-<div class="page-top {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
+{{ $js := resources.Get "js/navbar.js" }}
+{{ $secureJS := $js |  resources.Minify | resources.Fingerprint }}
+<script type="text/javascript"
+        src="{{ $secureJS.Permalink }}"
+        integrity="{{ $secureJS.Data.Integrity }}"
+        crossorigin="anonymous"></script>
+
+        
+<div id="navbar" class="page-top {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
     <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>

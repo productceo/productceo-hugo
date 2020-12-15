@@ -56,7 +56,7 @@ url = "https://www.twitter.com/microsoftpm/"
 [[params.socialIcons]]
 icon = "fab fa-reddit-alien"
 title = "Reddit"
-url = "https://www.reddit.com/productceo/"
+url = "https://www.reddit.com/u/productceo/"
 [[params.socialIcons]]
 icon = "fab fa-github"
 title = "GitHub"
