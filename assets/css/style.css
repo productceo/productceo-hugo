@@ -140,7 +140,7 @@ a:active {
 
 @-webkit-keyframes fadeInDown {
     0% {
-        -webkit-transform: translateY(-20px);
+        -webkit-transform: translateY(-3vh);
     }
 
     100% {
@@ -150,7 +150,7 @@ a:active {
 
 @-moz-keyframes fadeInDown {
     0% {
-        -moz-transform: translateY(-20px);
+        -moz-transform: translateY(-3vh);
     }
 
     100% {
@@ -160,7 +160,7 @@ a:active {
 
 @-o-keyframes fadeInDown {
     0% {
-        -o-transform: translateY(-20px);
+        -o-transform: translateY(-3vh);
     }
 
     100% {
@@ -170,7 +170,7 @@ a:active {
 
 @keyframes fadeInDown {
     0% {
-        transform: translateY(-20px);
+        transform: translateY(-3vh);
     }
 
     100% {
@@ -196,11 +196,18 @@ a:active {
 .page-top {
     width: 67%;
     position: fixed;
+    top: 0;
     right: 0;
     z-index: 3;
     background-color: var(--bg-color);
     border-bottom: 1px solid var(--border-color);
     padding-top: 1rem;
+    transition: top 1s;
+}
+
+.page-top:active {
+    transition: top 1s;
+    transition-delay: 0s;
 }
 
 .page-top .nav {
