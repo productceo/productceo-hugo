@@ -205,14 +205,9 @@ a:active {
     transition: top 1s;
 }
 
-.page-top:active {
-    transition: top 1s;
-    transition-delay: 0s;
-}
-
 .page-top .nav {
     list-style: none;
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
     float: left;
     font-size: 1.0rem;
     display: block;
@@ -364,7 +359,7 @@ a:active {
 
 .post {
     background-color: var(--bg-color);
-    margin: 2rem;
+    margin: 1rem;
 }
 
 .post .section-title {
