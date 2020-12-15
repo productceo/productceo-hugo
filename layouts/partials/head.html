@@ -1,8 +1,18 @@
 <head>
     <title> {{.Site.Params.author}}{{ with .Title }} | {{ . }}{{ end }} </title>
 
-    <!-- Meta -->
+    <!-- Progressive Web App  -->
     <link rel="manifest" href="/manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    {{ $sw := resources.Get "js/service-worker.js" }}
+    {{ $secureJS := $sw |  resources.Minify | resources.Fingerprint }}
+    <script type="text/javascript"
+            src="{{ $secureJS.Permalink }}"
+            integrity="{{ $secureJS.Data.Integrity }}"
+            crossorigin="anonymous"></script>
+
+    <!-- Meta -->
     <meta charset="utf-8">
     {{- hugo.Generator -}}
     <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
