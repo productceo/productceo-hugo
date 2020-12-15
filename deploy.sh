@@ -4,8 +4,6 @@
 git pull
 
 # Remove and set up public branch
-git rm --cached -r -f public
-rm -rf public
 git submodule add -b main --force  https://github.com/productceo/productceo.github.io.git public
 
 # If a command fails then the deploy stops
@@ -32,3 +30,8 @@ git commit -m "$msg"
 
 # Push source and build repos.
 git push -f origin main
+
+# Remove public branch
+cd ..
+git rm --cached -r -f public
+rm -rf public
