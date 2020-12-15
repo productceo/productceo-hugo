@@ -333,7 +333,8 @@ a:active {
     font-size: 0.88rem;
     text-align: center;
     flex: 7;
-    margin: 2.5rem;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .sidebar .social-links i {
@@ -910,37 +911,47 @@ h6 {
 
 @media screen and (max-width: 960px),
 print {
+    .page-top {
+        z-index: 3;
+        width: 100%;
+        height: 3.25rem;
+        padding: 0rem;
+    }
+
     .sidebar {
+        min-height: 0vh;
+        height: 70vh;
         width: 100%;
         position: absolute;
         border-right: none;
-        z-index: 1;
+        z-index: 2;
+    }
+
+    /* .sidebar .logo-title {
+        top: 0px;
+    } */
+
+    .sidebar .logo-title .title img {
+        width: 30vw;
     }
 
     .sidebar .logo-title {
-        padding-top: 120px;
+        padding-top: 20vh;
     }
 
-    .sidebar .logo-title .title img {
-        width: 100px;
-    }
-
-    .sidebar .logo-title .title h3 {
+    /* DELETE 2021.03.01 */
+    /* .sidebar .logo-title .title h3 {
         font-size: 20px;
-    }
+    } */
 
-    .page-top {
-        width: 100%;
-    }
-
-    .post-title h3 {
+    /* .post-title h3 {
         line-height: 1.6;
-    }
+    } */
 
     .content {
-        margin-top: 420px;
+        padding-top: 70vh;
         width: 100%;
-        z-index: 2;
+        z-index: 1;
         position: absolute;
     }
 
@@ -962,7 +973,6 @@ print {
     }
 
     .page-top .nav.is-active {
-        /* display: block; */
         display: block;
     }
 
@@ -972,9 +982,8 @@ print {
         flex-shrink: 0;
         display: block;
         line-height: 2.5;
-        padding: .5rem .75rem;
+        padding: .15rem .75rem;
         position: relative;
-        text-transform: uppercase;
         text-align: center;
         font-size: 1.2rem;
     }
