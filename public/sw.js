@@ -1,12 +1,13 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/6.0.2/workbox-sw.js');
 
 if (workbox) {
+  console.log("here");
   workbox.precaching.precacheAndRoute([]);
   /*  cache images in the e.g others folder; edit to other folders you got
   and config in the sw-config.js file
   */
   workbox.routing.registerRoute(
-      /(.*)profile(.*)\.(?:png|gif|jpg)/,
+      /(.*)others(.*)\.(?:png|gif|jpg)/,
       new workbox.strategies.CacheFirst({
           cacheName: "images",
           plugins: [
@@ -17,7 +18,7 @@ if (workbox) {
           ]
       })
   );
-  /* Make your JS and CSS fast by returning the assets from the cache,
+  /* Make your JS and CSS âš¡ fast by returning the assets from the cache,
   while making sure they are updated in the background for the next use.
   */
   workbox.routing.registerRoute(
@@ -51,14 +52,3 @@ self.skipWaiting();
 } else {
   console.log("Error: Workbox failed to load.");
 }
-
-self.addEventListener('fetch', (evt) => {
-    evt.respondWith(
-        caches.open('images').then(cache => {
-            return cache.match(evt.request).then(cacheResponse => cacheResponse || fetch(evt.request).then(networkResponse => {
-                cache.put(evt.request, networkResponse.clone());
-                return networkResponse;
-            }));
-        })
-    )
-});
