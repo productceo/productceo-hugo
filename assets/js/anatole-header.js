@@ -16,7 +16,7 @@ function init() {
     const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
     if (theme === null) {
         if (userPrefersDark) {
-            setTheme('dark');
+            setTheme('light');
         } else if (!document.documentElement.getAttribute('data-theme')) {
             setTheme('light');
         } else {

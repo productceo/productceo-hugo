@@ -3,8 +3,9 @@
 
     <!-- Progressive Web App  -->
     <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#f4f4f4">
     <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
     {{ $sw := resources.Get "js/service-worker.js" }}
     {{ $secureJS := $sw |  resources.Minify | resources.Fingerprint }}
     <script type="text/javascript"
@@ -49,10 +50,11 @@
     crossorigin="anonymous" />
 
     <!-- Favicons -->
+    <link rel="icon" type="image/png" href="{{ .Site.Params.favicon | absURL }}icon-512x512.png">
     <link rel="shortcut icon" href="{{ .Site.Params.favicon | absURL }}favicon.ico" type="image/x-icon">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Params.favicon | absURL }}apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.Params.favicon | absURL }}favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.Params.favicon | absURL }}favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ .Site.Params.favicon | absURL }}apple-touch-icon-152x152.png">
+    <!-- <link rel="icon" type="image/png" sizes="32x32" href="{{ .Site.Params.favicon | absURL }}favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ .Site.Params.favicon | absURL }}favicon-16x16.png"> -->
 
     <link rel="canonical" href="{{ .Permalink }}">
 
