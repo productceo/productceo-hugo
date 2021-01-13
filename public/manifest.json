@@ -3,6 +3,11 @@
   "short_name": "Product CEO",
   "icons": [
     {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+   {
       "src": "/icons/apple-touch-icon-57x57.png",
       "sizes": "57x57",
       "type": "image/png"
@@ -91,6 +96,12 @@
       "src": "/icons/mstile-310x310.png",
       "sizes": "310x310",
       "type": "image/png"
+    },
+    {
+      "src": "path/to/maskable_icon.png",
+      "sizes": "196x196",
+      "type": "image/png",
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
