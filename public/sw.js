@@ -48,17 +48,4 @@ and control a web page as soon as possible
 */
 self.skipWaiting();
   workbox.core.clientsClaim();
-} else {
-  console.log("Error: Workbox failed to load.");
 }
-
-self.addEventListener('fetch', (evt) => {
-    evt.respondWith(
-        caches.open('images').then(cache => {
-            return cache.match(evt.request).then(cacheResponse => cacheResponse || fetch(evt.request).then(networkResponse => {
-                cache.put(evt.request, networkResponse.clone());
-                return networkResponse;
-            }));
-        })
-    )
-});
