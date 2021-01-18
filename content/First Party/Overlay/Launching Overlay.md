@@ -1,18 +1,31 @@
 +++
-title = "Launching Overlay"
-project = "Overlay"
-
+date = 2020-07-18T00:00:00-00:00
 type = "FirstParty"
-
-date = 2020-12-12T15:36:54-08:00
+project = "Overlay"
+title = "Launching Interface"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur lorem donec massa sapien. Quis blandit turpis cursus in hac habitasse platea dictumst. Diam phasellus vestibulum lorem sed risus ultricies. Justo eget magna fermentum iaculis eu. At imperdiet dui accumsan sit amet. Et netus et malesuada fames ac turpis egestas maecenas pharetra. Viverra tellus in hac habitasse platea. Libero justo laoreet sit amet cursus sit amet dictum sit. Ullamcorper malesuada proin libero nunc consequat interdum varius sit amet. Pellentesque id nibh tortor id aliquet lectus proin. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Nisl vel pretium lectus quam id. Mi tempus imperdiet nulla malesuada pellentesque elit eget. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend. Tincidunt dui ut ornare lectus sit amet est. Hendrerit gravida rutrum quisque non. Id velit ut tortor pretium viverra suspendisse. Purus non enim praesent elementum facilisis leo. Neque volutpat ac tincidunt vitae semper quis.
+## Interface handles frontend and backend so that you can ship your vision apps to users immediately. 
+### Links 
+* Developer Documentation: https://developer.product.ceo/ 
+* Demo Vision Application: https://interface.product.ceo/demo/  
 
-Mauris in aliquam sem fringilla ut morbi tincidunt. Ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Magna etiam tempor orci eu lobortis elementum nibh tellus. Amet luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor. Ut consequat semper viverra nam. Est pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat. Arcu risus quis varius quam. Scelerisque eu ultrices vitae auctor eu augue ut lectus arcu. Varius vel pharetra vel turpis nunc eget lorem. At urna condimentum mattis pellentesque id nibh tortor.
+### Inspiration 
+One pain point for me has been the overhead work required to ship apps to users. Even when I have implemented interesting core functionality for a vision app (an app that receives images and produces some useful output), I had to: 
+1. design and implement frontend for that users can use,  
+2. set up networking, servers, and databases to pass data from client to the vision app, and 
+3. deal with all the unexpected errors from the many moving parts that I am not familiar with.  
 
-Sed adipiscing diam donec adipiscing tristique. Lobortis mattis aliquam faucibus purus in massa tempor. Ultricies mi eget mauris pharetra. Pharetra sit amet aliquam id diam. Sed libero enim sed faucibus turpis in eu mi. Suspendisse potenti nullam ac tortor vitae purus. Facilisis mauris sit amet massa vitae tortor. Morbi quis commodo odio aenean sed. Enim facilisis gravida neque convallis a cras. Et malesuada fames ac turpis egestas integer. Nisl tincidunt eget nullam non nisi est sit amet facilisis. Eu non diam phasellus vestibulum lorem sed risus ultricies. Egestas congue quisque egestas diam in arcu cursus euismod.
+### Mechanism 
+As we move away from smartphone screens to augmented reality, I know we will be building and using apps that process context, like what you see and what you hear, rather than what you touch on screen. 
 
-Id velit ut tortor pretium viverra suspendisse potenti nullam. Hendrerit gravida rutrum quisque non tellus. Nibh cras pulvinar mattis nunc sed blandit libero volutpat sed. Platea dictumst vestibulum rhoncus est pellentesque elit ullamcorper dignissim cras. Purus sit amet luctus venenatis lectus magna fringilla. Justo eget magna fermentum iaculis eu non diam. Augue lacus viverra vitae congue eu consequat ac. Duis ut diam quam nulla porttitor massa id neque aliquam. Et netus et malesuada fames ac. Convallis tellus id interdum velit laoreet id. Eu lobortis elementum nibh tellus molestie. Mi bibendum neque egestas congue quisque egestas diam in. Sodales neque sodales ut etiam sit amet. Consequat id porta nibh venenatis cras sed. Interdum consectetur libero id faucibus nisl. Maecenas pharetra convallis posuere morbi.
+I developed Interface to rapidly develop and ship my own ideas. Shipping a new idea is as simple as: 
+1. **writing one Python function** that receives an image and returns an HTML (which can include text, images, videos, and any other custom interactions you need),  
+2. **registering the function on Interface**, and  
+3. **sending a link** associated with the function to users.  
 
-Nec tincidunt praesent semper feugiat nibh sed. Nibh praesent tristique magna sit. Dignissim convallis aenean et tortor at risus viverra adipiscing. Metus aliquam eleifend mi in nulla posuere sollicitudin aliquam ultrices. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Consequat id porta nibh venenatis cras sed felis. Et tortor consequat id porta nibh venenatis cras sed felis. Maecenas ultricies mi eget mauris pharetra et ultrices neque ornare. Mi quis hendrerit dolor magna eget. Risus ultricies tristique nulla aliquet enim tortor at. Neque ornare aenean euismod elementum nisi quis eleifend. Vel orci porta non pulvinar neque laoreet suspendisse. Maecenas ultricies mi eget mauris pharetra et. Id aliquet lectus proin nibh nisl condimentum id. Aliquet enim tortor at auctor. Gravida dictum fusce ut placerat orci. Nunc id cursus metus aliquam eleifend mi in nulla posuere.
+### Try It Yourself 
+Today is 8888th day since my birthday. To celebrate today, I organized the project so that any developers can use Interface. Take a look at the [Developer Documentation](https://developer.product.ceo/). Interface today only supports single instance photoshoots and documentation may be difficult to read for new developers, but I will provide support, improve user and developer experiences, and add platform capabilities such as sound and location to assist you to prepare for the era of AR glasses.  
+
+### Disclaimer 
+Interface is my contribution, not a business. It receives no payments, includes no advertisements, and therefore provides no service level agreement that guarantees the robustness you would want in a platform through which you would service production grade apps. I recommend that you use it for prototypes, not for products. 
