@@ -8,21 +8,30 @@
     <language>en</language>
     <lastBuildDate>Sat, 12 Dec 2020 15:36:54 -0800</lastBuildDate><atom:link href="https://www.product.ceo/first-party/product-ceo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Launching Product CEO</title>
-      <link>https://www.product.ceo/first-party/product-ceo/launching-product-ceo/</link>
-      <pubDate>Sat, 12 Dec 2020 15:36:54 -0800</pubDate>
+      <title>Product CEO 21H1</title>
+      <link>https://www.product.ceo/first-party/product-ceo/product-ceo-21h1/</link>
+      <pubDate>Fri, 25 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.product.ceo/first-party/product-ceo/launching-product-ceo/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur lorem donec massa sapien.</description>
+      <guid>https://www.product.ceo/first-party/product-ceo/product-ceo-21h1/</guid>
+      <description>Post Mortem In 2020, Product CEO successfully launched Library of Business, Executive Summary, and First Party. A sufficient amount of content was accumulated for distribution.</description>
     </item>
     
     <item>
-      <title>Product CEO 21H1</title>
-      <link>https://www.product.ceo/first-party/product-ceo/product-ceo-21h1/</link>
-      <pubDate>Sat, 12 Dec 2020 15:36:54 -0800</pubDate>
+      <title>I am Junwon, Product CEO</title>
+      <link>https://www.product.ceo/first-party/product-ceo/i-am-junwon-product-ceo/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://www.product.ceo/first-party/product-ceo/product-ceo-21h1/</guid>
-      <description>Test. Hello!Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Consectetur lorem donec massa sapien.</description>
+      <guid>https://www.product.ceo/first-party/product-ceo/i-am-junwon-product-ceo/</guid>
+      <description>Nice to meet you. I am Junwon Park During the day, I manage visual search products at Microsoft AI &amp;amp; Research, in Bellevue, Washington.</description>
+    </item>
+    
+    <item>
+      <title>Launching Product CEO</title>
+      <link>https://www.product.ceo/first-party/product-ceo/launching-product-ceo/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.product.ceo/first-party/product-ceo/launching-product-ceo/</guid>
+      <description>A website about product management An enterprise exists to ship great products that enrich the lives of people, thereby strengthening the humankind.</description>
     </item>
     
   </channel>
