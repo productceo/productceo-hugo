@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S08: The Network Imperative on Product CEO</title>
+    <link>https://www.product.ceo/executive-library/s08-the-network-imperative/</link>
+    <description>Recent content in S08: The Network Imperative on Product CEO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 07 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.product.ceo/executive-library/s08-the-network-imperative/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E01: The Network Imperative</title>
+      <link>https://www.product.ceo/executive-library/s08-the-network-imperative/s08e01/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.product.ceo/executive-library/s08-the-network-imperative/s08e01/</guid>
+      <description>Authors of The Network Imperative distinguish the network companies from the companies that are not, and describe how network companies see the world differently from their incumbent competitors.</description>
+    </item>
+    
+    <item>
+      <title>E02: Pivot - Implementing Network Business Models</title>
+      <link>https://www.product.ceo/executive-library/s08-the-network-imperative/s08e02/</link>
+      <pubDate>Fri, 07 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.product.ceo/executive-library/s08-the-network-imperative/s08e02/</guid>
+      <description>Pivot is a five step process for implementing network business models, proposed by the authors of The Network Imperative. Pivot is an acronym for Pinpoint, Inventory, Visualize, Operate, and Track.</description>
+    </item>
+    
+  </channel>
+</rss>

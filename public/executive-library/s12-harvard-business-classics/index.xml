@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S12: Harvard Business Classics on Product CEO</title>
+    <link>https://www.product.ceo/executive-library/s12-harvard-business-classics/</link>
+    <description>Recent content in S12: Harvard Business Classics on Product CEO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 07 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://www.product.ceo/executive-library/s12-harvard-business-classics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E01: How to Write a Great Business Plan</title>
+      <link>https://www.product.ceo/executive-library/s12-harvard-business-classics/s12e01/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.product.ceo/executive-library/s12-harvard-business-classics/s12e01/</guid>
+      <description>William Sahlman, a Baker Foundation Professor at Harvard Business School, whose publication in business and entrepreneurship span over 150 business cases and 3 books, describes the process of writing a great business plan.</description>
+    </item>
+    
+    <item>
+      <title>E02: What’s Your Digital Business Model</title>
+      <link>https://www.product.ceo/executive-library/s12-harvard-business-classics/s12e02/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.product.ceo/executive-library/s12-harvard-business-classics/s12e02/</guid>
+      <description>Peter Weill and Stephanie Woerner wrote the book What’s Your Digital Business Model for old corporations who have built their business operations on analog infrastructure and now face the need to transform their fundamental business model to compete against companies built for the digital age.</description>
+    </item>
+    
+  </channel>
+</rss>
