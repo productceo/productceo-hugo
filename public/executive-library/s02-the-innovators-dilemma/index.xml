@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>S02: The Innovator&#39;s Dilemma on Product CEO</title>
+    <link>https://www.product.ceo/executive-library/s02-the-innovators-dilemma/</link>
+    <description>Recent content in S02: The Innovator&#39;s Dilemma on Product CEO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.product.ceo/executive-library/s02-the-innovators-dilemma/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>E01: Disruptive Innovation</title>
+      <link>https://www.product.ceo/executive-library/s02-the-innovators-dilemma/s02e01/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.product.ceo/executive-library/s02-the-innovators-dilemma/s02e01/</guid>
+      <description>Failure of great companies The Innovator’s Dilemma is a book about the failure of companies. Not just of simply any company, but of great companies.</description>
+    </item>
+    
+    <item>
+      <title>E02: Value Networks</title>
+      <link>https://www.product.ceo/executive-library/s02-the-innovators-dilemma/s02e02/</link>
+      <pubDate>Sat, 17 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.product.ceo/executive-library/s02-the-innovators-dilemma/s02e02/</guid>
+      <description>Disruptive technology redefines performance metrics Blindly following the maxim that good managers should keep close to their customers can be a fatal mistake.</description>
+    </item>
+    
+  </channel>
+</rss>
